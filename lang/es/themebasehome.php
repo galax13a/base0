@@ -4,7 +4,7 @@
             'name' => 'Home',
             'url' => '/',
             'clase' => '',
-            'ComHomeTitle' => 'Crear Mensajes Creativos',
+            'ComHomeTitle' => 'Crea Mensajes Creativos',
             'ComHomeContent' => 'Envia mensajes inteligentes a tus contactos al instante, mediante nuestra app notificas de forma rapida',
             'ComHomeBtnGetstared' => 'Empezar Ahora',
             'ComHomeVideo' => 'Ver Video',
@@ -22,7 +22,7 @@
             'navegatorHeadTeam' => 'Team',
             'navegatorHeadLogin' => 'Entrar',
             'navegatorHeadRegister' => 'Registro',
-            'navegatorHeadGetstarted' => 'Empezar app',
+            'navegatorHeadGetstarted' => 'Empezar',
         ]
     ];
  ?>

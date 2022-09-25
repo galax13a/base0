@@ -1,8 +1,9 @@
 <div>
  <!-- conponen homecontent -->
   <!-- =======  - Home Section ======= -->
-  <x-app.base.ComHome />
 
+  <x-app.base.ComHome />
+  <!-- =======  - Home END Section ======= -->
   <main id="main">
     <!-- ======= Featured Home Extra Section ======= -->
           <x-app.base.ComHomemore />
@@ -16,6 +17,7 @@
    <x-app.base.ComHomecounter></x-app.base.ComHomecounter>
    <!-- End Counts Section -->
    
+  <x-app.base.ComHome />
     <!-- ======= Services Section ======= -->
    <x-app.base.ComService></x-app.base.ComService>
     <!-- End Services Section -->
