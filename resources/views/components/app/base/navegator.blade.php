@@ -9,11 +9,16 @@
           <!-- Uncomment below if you prefer to use an image logo y nav -->
           <nav id="navbar" class="navbar">
             <ul>
+           
                 @foreach ($menu_navs as  $menu)
-                <li><a class="nav-link scrollto {{$menu->clase}}" href="{{$menu->url}}">{{$menu->name}}</a></li>
+                <?php
+                $base_nav = 'themebasehome.navmenu.';
+                ?>
+                <li><a class="nav-link scrollto {{$menu->clase}}" href="{{$menu->url}}">@lang($base_nav.$menu->lang)</a></li>
                 @endforeach
                 <!-- submenu navigator EN -->
                 <x-app.base.ComNavegatorsubmenu></x-app.base.ComNavegatorsubmenu>
+                <!-- submenu navigator END -->
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->

@@ -19,42 +19,42 @@ class NavegatorSeeder extends Seeder
         Navegator::create([
             'name' => 'Home',
             'url' =>  '#hero',
-            'lang' => 'navegatorHead.home',
+            'lang' => 'navegatorHeadHome',
             'enabled' => true,
             'order' => 1
         ]);
         Navegator::create([
             'name' => 'About',
             'url' =>  '#about',
-            'lang' => 'navegatorHead.about',
+            'lang' => 'navegatorHeadAbout',
             'enabled' => true,
             'order' => 1
         ]);
         Navegator::create([
             'name' => 'Services',
             'url' =>  '#services',
-            'lang' => 'navegatorHead.services',
+            'lang' => 'navegatorHeadServices',
             'enabled' => true,
             'order' => 1
         ]);
         Navegator::create([
             'name' => 'Portafolio',
             'url' =>  '#portfolio',
-            'lang' => 'navegatorHead.porfolio',
+            'lang' => 'navegatorHeadPorfolio',
             'enabled' => true,
             'order' => 1
         ]);
         Navegator::create([
             'name' => 'Contact',
             'url' =>  '#contact',
-            'lang' => 'navegatorHead.contact',
+            'lang' => 'navegatorHeadContact',
             'enabled' => true,
             'order' => 1
         ]);
         Navegator::create([
             'name' => 'Team',
             'url' =>  '#team',
-            'lang' => 'navegatorHead.team',
+            'lang' => 'navegatorHeadTeam',
             'enabled' => true,
             'order' => 1
         ]);
@@ -62,7 +62,7 @@ class NavegatorSeeder extends Seeder
         Navegator::create([
             'name' => 'Login',
             'url' =>  '/login',
-            'lang' => 'navegatorHead.login',
+            'lang' => 'navegatorHeadLogin',
             'enabled' => true,
             'order' => 1
         ]);
@@ -70,14 +70,14 @@ class NavegatorSeeder extends Seeder
         Navegator::create([
             'name' => 'Register',
             'url' =>  '/register',
-            'lang' => 'navegatorHead.register',
+            'lang' => 'navegatorHeadRegister',
             'enabled' => true,
             'order' => 1
         ]);
         Navegator::create([
             'name' => 'Getstarted',
             'url' =>  '/getstarted',
-            'lang' => 'navegatorHead.getstarted',
+            'lang' => 'navegatorHeadGetstarted',
             'enabled' => true,
             'clase' => 'getstarted',
             'order' => 0

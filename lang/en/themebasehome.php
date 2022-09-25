@@ -11,6 +11,19 @@
             'ComHomemoreCreatechat' => 'Create Chat',
             'ComHomemoreCreateContacts' => 'Create Contacts',
             'ComHomemoreCreateLinks' => 'Create Links',
-            ]
+        ],
+        
+        'navmenu' => [
+            'navegatorHeadHome' => 'Home',
+            'navegatorHeadAbout' => 'About',
+            'navegatorHeadServices' => 'Services',
+            'navegatorHeadPorfolio' => 'Porfolio',
+            'navegatorHeadContact' => 'Contact',
+            'navegatorHeadTeam' => 'Team',
+            'navegatorHeadLogin' => 'Login',
+            'navegatorHeadRegister' => 'Register',
+            'navegatorHeadGetstarted' => 'Get Started',
+        ]
+
     ];
  ?>
